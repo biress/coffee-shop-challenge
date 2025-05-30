@@ -20,3 +20,4 @@ def test_invalid_price():
 def test_type_validation():
     with pytest.raises(TypeError):
         Order("not-a-customer", Coffee("Latte"), 3.0)
+f

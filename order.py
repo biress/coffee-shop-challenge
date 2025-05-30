@@ -1,5 +1,5 @@
 class Order:
-    """Represents an order placed by a customer for a specific coffee."""
+    
 
     def __init__(self, customer, coffee, price):
         from customer import Customer
@@ -18,15 +18,15 @@ class Order:
 
     @property
     def customer(self):
-        """Return the customer who placed this order."""
+
         return self._customer
 
     @property
     def coffee(self):
-        """Return the coffee ordered."""
+
         return self._coffee
 
     @property
     def price(self):
-        """Return the price of this order."""
+
         return self._price
